@@ -13,6 +13,9 @@ predict the diseases in the apple plant. Some of the common diseases are Apple r
 The above are some examples of such diseases.
 The dataset consists of leaf images of various apple plants from Kashmir and fortunaltely this is the latest dataset available from Kashmir. The dataset used comprises different diseases which are found in apple plants and as well as there are healthy leaf images.
 
+![image](https://user-images.githubusercontent.com/96066261/219602900-04908c49-da2f-41f9-82ef-a968379e2693.png)
+
+
 You can easily download the dataset from the link:- https://drive.google.com/drive/folders/1FWsZxnEGdcUfMjhAXwCP4KKkpViABrGI?usp=share_link
 
 ## Why is there a need for such a model?
@@ -82,10 +85,22 @@ Image augmentation produces fresh data that can be utilised for model training b
 We then changed the colour photo to black and white using picture decolorization. It is referred to as the procedure to convert a colour image to a grayscale image and is frequently used in single-channel image processing, black and white printing, etc. We chose this approach because it makes it simpler to distinguish between diseases like apple scab and apple rot that are brought on by bacterial or fungal infection. The model gains the benefit of being able to train more successfully as a result.
 Also, we used Label Encoder to label the target, or the damaged plant leaves. Due to the fact that the data we were able to get was in string format, which made it challenging to train and construct the model, we separated each class of illness into integers such as 0,1,2,3. In order to overcome the obstacle, Label Encoder was used.
 
+![image](https://user-images.githubusercontent.com/96066261/219602570-4984ca25-7dd4-4897-be76-accbe3765e94.png)
+
+
+![image](https://user-images.githubusercontent.com/96066261/219602528-72ad0413-5e60-4e0c-bb0f-eec447a9954d.png)  ![image](https://user-images.githubusercontent.com/96066261/219602677-a96be10d-acd2-4d34-a0cf-72558a08f926.png)
+
+
+
 ### Model selection and training
 It is simple to fit numerous machine learning models on a given predictive modelling dataset because to the availability of several libraries that offer user-friendly machine learning frameworks like scikit-learn and keras. Making the choice of model to use for a particular task is the challenge of applied machine learning. While choosing a model, it's important to take complexity, maintainability, and available resources into account in addition to performance.
 We used Convolutional Neural Networks (CNN), a deep learning technique, for our model. The main motivation behind doing so was to maximise performance by applying the patterns present in the photos.
 CNNs are a class of deep neural networks that are frequently employed to analyse visual data. The bottom line is that ConvNet's goal is to keep elements that are essential for making precise predictions while compressing the images into a format that is simpler to comprehend. The pooling layer is used to shrink the spatial size of the convolutional feature after the convolutional layer. The amount of computing power needed to process the data is decreased by reducing its size. Max pooling was implemented. So, what we did was determine which pixel in a certain area of the image had the highest value. This does de-noising, dimensionality reduction, and the removal of all noisy activations. The convolutional and pooling layers are employed in the model.
+
+![image](https://user-images.githubusercontent.com/96066261/219603085-3feb34aa-b27a-4f37-93d4-af0b65a49a66.png)
+
+![image](https://user-images.githubusercontent.com/96066261/219603134-e0995c67-5ee0-4d3e-af74-daf6928db666.png)
+
 
 ### Testing
 Testing is the process of assessing a fully trained model's performance on a testing set. Samples that were separated from the training and validation sets make up the testing set. At this point, our models start to produce reliable forecasts. The importance of testing a model comes from the fact that many models may demonstrate excellent accuracy during the training phase but underperform when faced with unknowable input. Hence, by putting our model to the test, we can determine its limitations and strengths, which will help us improve it. In our case, we initially launched a model without any data augmentation, and the outcomes weren't good. This highlights how poorly the model performs when there aren't enough data. 
