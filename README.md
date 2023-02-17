@@ -31,7 +31,7 @@ The main concern for any farmer is the quality and quantity of their crops or an
 <li>	More Waste of Useful Land: The lesser production may not be seen in small farms but when these irregularities appear on large scale, there are drastic results such as shortage in the food supplies for certain products. Thus, increasing the prices. </li>
 </ol>
 
-![download (3)](https://user-images.githubusercontent.com/96066261/219596852-4ae0529a-a203-4d1a-a7ea-43e44f941b22.jpeg)  ![download (4)](https://user-images.githubusercontent.com/96066261/219596890-78e87aae-d66e-46a5-aefc-61650cf2dfec.jpeg)  ![download (5)](https://user-images.githubusercontent.com/96066261/219596912-d10aef77-dca6-45c6-b358-7dac9cc4788c.jpeg)
+![download (3)](https://user-images.githubusercontent.com/96066261/219596852-4ae0529a-a203-4d1a-a7ea-43e44f941b22.jpeg)![download (4)](https://user-images.githubusercontent.com/96066261/219596890-78e87aae-d66e-46a5-aefc-61650cf2dfec.jpeg)![download (5)](https://user-images.githubusercontent.com/96066261/219596912-d10aef77-dca6-45c6-b358-7dac9cc4788c.jpeg)
 
 ### Proposed System
 
