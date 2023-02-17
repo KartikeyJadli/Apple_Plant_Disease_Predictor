@@ -8,7 +8,7 @@ The apples of Kashmir are famous worldwide for their delicacy and juiciness. Thu
 predict the diseases in the apple plant. Some of the common diseases are Apple rot, Scab leaves and Leaf blotch.
 
 
-![download](https://user-images.githubusercontent.com/96066261/219589808-ff98f624-87e5-4f03-a62b-4c3ab46c5325.jpeg)  ![download (1)](https://user-images.githubusercontent.com/96066261/219589920-d951fcef-b3df-447a-811d-6a5faf031e9d.jpeg)  ![download (2)](https://user-images.githubusercontent.com/96066261/219589962-d08f314a-5d7d-4276-8299-108523aae5d7.jpeg)
+![download](https://user-images.githubusercontent.com/96066261/219589808-ff98f624-87e5-4f03-a62b-4c3ab46c5325.jpeg) ![download (1)](https://user-images.githubusercontent.com/96066261/219589920-d951fcef-b3df-447a-811d-6a5faf031e9d.jpeg)![download (2)](https://user-images.githubusercontent.com/96066261/219589962-d08f314a-5d7d-4276-8299-108523aae5d7.jpeg)
 
 The above are some examples of such diseases.
 The dataset consists of leaf images of various apple plants from Kashmir and fortunaltely this is the latest dataset available from Kashmir. The dataset used comprises different diseases which are found in apple plants and as well as there are healthy leaf images.
