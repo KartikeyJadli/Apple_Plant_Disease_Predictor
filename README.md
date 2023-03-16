@@ -42,6 +42,7 @@ The proposed system contains the use of Machine Learning and Deep Learning techn
 The Plant Disease Predictor will be made up of two primary components:
 1. A feature extractor 
 2. A Classifier
+
 The feature extractor takes visual information from input photos and delivers them to the training model. During training, the model use prediction algorithms to analyse the supplied photos and forecast whether they are contaminated or not. Based on the data images collected, our plant predictor will detect the infected with better accuracy and precision.
 The findings throughout this project will help farmers to quickly take countermeasures against the contaminated and infected plants and trees.
 
